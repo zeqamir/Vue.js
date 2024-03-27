@@ -16,7 +16,10 @@
       <product-display
         :premium="premium"
         @add-to-cart="updateCart"
-      ></product-display>
+        @remove-from-cart="removeById"
+      >
+        <!-- solution -->
+      </product-display>
     </div>
 
     <!-- Import App -->
